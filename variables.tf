@@ -110,6 +110,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -169,6 +172,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -215,6 +221,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -260,6 +269,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -305,6 +317,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -350,6 +365,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -400,6 +418,9 @@ Optional:
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
                                 - positional_constraint (required)
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - search_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -467,6 +488,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -526,6 +550,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -572,6 +599,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -617,6 +647,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -662,6 +695,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -707,6 +743,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -759,6 +798,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -818,6 +860,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -864,6 +909,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -909,6 +957,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -954,6 +1005,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -999,6 +1053,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -1043,6 +1100,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - regex_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -1089,6 +1149,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -1134,6 +1197,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - size (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -1179,6 +1245,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - sensitivity_level (optional)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -1224,6 +1293,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -1274,6 +1346,9 @@ Optional:
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
                         - positional_constraint (required)
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - search_string (required)
                         - text_transformation (required, block):
                             - priority (required)
@@ -1343,6 +1418,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -1402,6 +1480,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -1448,6 +1529,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -1493,6 +1577,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -1538,6 +1625,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -1583,6 +1673,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -1633,6 +1726,9 @@ Optional:
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
                                 - positional_constraint (required)
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - search_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -1700,6 +1796,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -1759,6 +1858,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -1805,6 +1907,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -1850,6 +1955,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -1895,6 +2003,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -1940,6 +2051,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -1992,6 +2106,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -2051,6 +2168,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -2097,6 +2217,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -2142,6 +2265,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -2187,6 +2313,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -2232,6 +2361,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -2276,6 +2408,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - regex_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -2322,6 +2457,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -2367,6 +2505,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - size (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -2412,6 +2553,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - sensitivity_level (optional)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -2457,6 +2601,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -2511,6 +2658,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -2570,6 +2720,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -2616,6 +2769,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -2661,6 +2817,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -2706,6 +2865,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -2751,6 +2913,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -2801,6 +2966,9 @@ Optional:
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
                                 - positional_constraint (required)
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - search_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -2868,6 +3036,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -2927,6 +3098,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -2973,6 +3147,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -3018,6 +3195,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -3063,6 +3243,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -3108,6 +3291,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -3160,6 +3346,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -3219,6 +3408,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -3265,6 +3457,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -3310,6 +3505,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -3355,6 +3553,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -3400,6 +3601,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -3444,6 +3648,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - regex_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -3490,6 +3697,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -3535,6 +3745,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - size (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -3580,6 +3793,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - sensitivity_level (optional)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -3625,6 +3841,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -3669,6 +3888,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - regex_string (required)
                         - text_transformation (required, block):
                             - priority (required)
@@ -3715,6 +3937,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - text_transformation (required, block):
                             - priority (required)
                             - type (required)
@@ -3760,6 +3985,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - size (required)
                         - text_transformation (required, block):
                             - priority (required)
@@ -3805,6 +4033,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - sensitivity_level (optional)
                         - text_transformation (required, block):
                             - priority (required)
@@ -3850,6 +4081,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - text_transformation (required, block):
                             - priority (required)
                             - type (required)
@@ -3900,6 +4134,9 @@ Optional:
                         - fallback_behavior (optional)
                     - uri_path (optional, block):
                 - positional_constraint (required)
+                - pre_parse_text_transformation (optional, block):
+                    - priority (required)
+                    - type (required)
                 - search_string (required)
                 - text_transformation (required, block):
                     - priority (required)
@@ -3971,6 +4208,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -4030,6 +4270,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -4076,6 +4319,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -4121,6 +4367,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -4166,6 +4415,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -4211,6 +4463,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -4261,6 +4516,9 @@ Optional:
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
                                 - positional_constraint (required)
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - search_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -4328,6 +4586,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -4387,6 +4648,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -4433,6 +4697,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -4478,6 +4745,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -4523,6 +4793,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -4568,6 +4841,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -4620,6 +4896,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -4679,6 +4958,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -4725,6 +5007,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -4770,6 +5055,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -4815,6 +5103,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -4860,6 +5151,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -4904,6 +5198,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - regex_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -4950,6 +5247,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -4995,6 +5295,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - size (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -5040,6 +5343,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - sensitivity_level (optional)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -5085,6 +5391,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -5135,6 +5444,9 @@ Optional:
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
                         - positional_constraint (required)
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - search_string (required)
                         - text_transformation (required, block):
                             - priority (required)
@@ -5204,6 +5516,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -5263,6 +5578,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -5309,6 +5627,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -5354,6 +5675,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -5399,6 +5723,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -5444,6 +5771,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -5494,6 +5824,9 @@ Optional:
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
                                 - positional_constraint (required)
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - search_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -5561,6 +5894,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -5620,6 +5956,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -5666,6 +6005,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -5711,6 +6053,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -5756,6 +6101,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -5801,6 +6149,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -5853,6 +6204,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -5912,6 +6266,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -5958,6 +6315,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -6003,6 +6363,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -6048,6 +6411,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -6093,6 +6459,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -6137,6 +6506,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - regex_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -6183,6 +6555,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -6228,6 +6603,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - size (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -6273,6 +6651,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - sensitivity_level (optional)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -6318,6 +6699,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -6372,6 +6756,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -6431,6 +6818,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -6477,6 +6867,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -6522,6 +6915,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -6567,6 +6963,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -6612,6 +7011,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -6662,6 +7064,9 @@ Optional:
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
                                 - positional_constraint (required)
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - search_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -6729,6 +7134,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -6788,6 +7196,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -6834,6 +7245,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -6879,6 +7293,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -6924,6 +7341,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -6969,6 +7389,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -7021,6 +7444,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -7080,6 +7506,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -7126,6 +7555,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -7171,6 +7603,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -7216,6 +7651,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -7261,6 +7699,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -7305,6 +7746,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - regex_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -7351,6 +7795,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -7396,6 +7843,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - size (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -7441,6 +7891,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - sensitivity_level (optional)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -7486,6 +7939,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -7530,6 +7986,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - regex_string (required)
                         - text_transformation (required, block):
                             - priority (required)
@@ -7576,6 +8035,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - text_transformation (required, block):
                             - priority (required)
                             - type (required)
@@ -7621,6 +8083,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - size (required)
                         - text_transformation (required, block):
                             - priority (required)
@@ -7666,6 +8131,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - sensitivity_level (optional)
                         - text_transformation (required, block):
                             - priority (required)
@@ -7711,6 +8179,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - text_transformation (required, block):
                             - priority (required)
                             - type (required)
@@ -7767,6 +8238,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -7826,6 +8300,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -7872,6 +8349,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -7917,6 +8397,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -7962,6 +8445,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -8007,6 +8493,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -8057,6 +8546,9 @@ Optional:
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
                                 - positional_constraint (required)
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - search_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -8124,6 +8616,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -8183,6 +8678,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -8229,6 +8727,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -8274,6 +8775,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -8319,6 +8823,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -8364,6 +8871,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -8416,6 +8926,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -8475,6 +8988,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -8521,6 +9037,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -8566,6 +9085,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -8611,6 +9133,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -8656,6 +9181,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -8700,6 +9228,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - regex_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -8746,6 +9277,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -8791,6 +9325,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - size (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -8836,6 +9373,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - sensitivity_level (optional)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -8881,6 +9421,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -8931,6 +9474,9 @@ Optional:
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
                         - positional_constraint (required)
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - search_string (required)
                         - text_transformation (required, block):
                             - priority (required)
@@ -9000,6 +9546,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -9059,6 +9608,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -9105,6 +9657,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -9150,6 +9705,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -9195,6 +9753,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -9240,6 +9801,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -9290,6 +9854,9 @@ Optional:
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
                                 - positional_constraint (required)
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - search_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -9357,6 +9924,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -9416,6 +9986,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -9462,6 +10035,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -9507,6 +10083,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -9552,6 +10131,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -9597,6 +10179,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -9649,6 +10234,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -9708,6 +10296,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -9754,6 +10345,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -9799,6 +10393,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -9844,6 +10441,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -9889,6 +10489,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -9933,6 +10536,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - regex_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -9979,6 +10585,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -10024,6 +10633,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - size (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -10069,6 +10681,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - sensitivity_level (optional)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -10114,6 +10729,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -10168,6 +10786,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -10227,6 +10848,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -10273,6 +10897,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -10318,6 +10945,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -10363,6 +10993,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -10408,6 +11041,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -10458,6 +11094,9 @@ Optional:
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
                                 - positional_constraint (required)
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - search_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -10525,6 +11164,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -10584,6 +11226,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -10630,6 +11275,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -10675,6 +11323,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -10720,6 +11371,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -10765,6 +11419,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -10817,6 +11474,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -10876,6 +11536,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -10922,6 +11585,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -10967,6 +11633,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -11012,6 +11681,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -11057,6 +11729,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -11101,6 +11776,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - regex_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -11147,6 +11825,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -11192,6 +11873,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - size (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -11237,6 +11921,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - sensitivity_level (optional)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -11282,6 +11969,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -11326,6 +12016,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - regex_string (required)
                         - text_transformation (required, block):
                             - priority (required)
@@ -11372,6 +12065,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - text_transformation (required, block):
                             - priority (required)
                             - type (required)
@@ -11417,6 +12113,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - size (required)
                         - text_transformation (required, block):
                             - priority (required)
@@ -11462,6 +12161,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - sensitivity_level (optional)
                         - text_transformation (required, block):
                             - priority (required)
@@ -11507,6 +12209,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - text_transformation (required, block):
                             - priority (required)
                             - type (required)
@@ -11603,6 +12308,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -11662,6 +12370,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -11708,6 +12419,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -11753,6 +12467,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -11798,6 +12515,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -11843,6 +12563,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -11893,6 +12616,9 @@ Optional:
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
                                 - positional_constraint (required)
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - search_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -11960,6 +12686,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -12019,6 +12748,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -12065,6 +12797,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -12110,6 +12845,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -12155,6 +12893,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -12200,6 +12941,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -12252,6 +12996,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -12311,6 +13058,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -12357,6 +13107,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -12402,6 +13155,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -12447,6 +13203,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -12492,6 +13251,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -12536,6 +13298,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - regex_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -12582,6 +13347,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -12627,6 +13395,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - size (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -12672,6 +13443,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - sensitivity_level (optional)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -12717,6 +13491,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -12767,6 +13544,9 @@ Optional:
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
                         - positional_constraint (required)
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - search_string (required)
                         - text_transformation (required, block):
                             - priority (required)
@@ -12836,6 +13616,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -12895,6 +13678,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -12941,6 +13727,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -12986,6 +13775,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -13031,6 +13823,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -13076,6 +13871,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -13126,6 +13924,9 @@ Optional:
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
                                 - positional_constraint (required)
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - search_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -13193,6 +13994,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -13252,6 +14056,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -13298,6 +14105,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -13343,6 +14153,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -13388,6 +14201,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -13433,6 +14249,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -13485,6 +14304,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -13544,6 +14366,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -13590,6 +14415,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -13635,6 +14463,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -13680,6 +14511,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -13725,6 +14559,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -13769,6 +14606,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - regex_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -13815,6 +14655,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -13860,6 +14703,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - size (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -13905,6 +14751,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - sensitivity_level (optional)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -13950,6 +14799,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -14004,6 +14856,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -14063,6 +14918,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -14109,6 +14967,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -14154,6 +15015,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -14199,6 +15063,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -14244,6 +15111,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -14294,6 +15164,9 @@ Optional:
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
                                 - positional_constraint (required)
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - search_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -14361,6 +15234,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -14420,6 +15296,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -14466,6 +15345,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -14511,6 +15393,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -14556,6 +15441,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -14601,6 +15489,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -14653,6 +15544,9 @@ Optional:
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
                                         - positional_constraint (required)
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - search_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -14712,6 +15606,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - regex_string (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -14758,6 +15655,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -14803,6 +15703,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - size (required)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -14848,6 +15751,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - sensitivity_level (optional)
                                         - text_transformation (required, block):
                                             - priority (required)
@@ -14893,6 +15799,9 @@ Optional:
                                             - uri_fragment (optional, block):
                                                 - fallback_behavior (optional)
                                             - uri_path (optional, block):
+                                        - pre_parse_text_transformation (optional, block):
+                                            - priority (required)
+                                            - type (required)
                                         - text_transformation (required, block):
                                             - priority (required)
                                             - type (required)
@@ -14937,6 +15846,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - regex_string (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -14983,6 +15895,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -15028,6 +15943,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - size (required)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -15073,6 +15991,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - sensitivity_level (optional)
                                 - text_transformation (required, block):
                                     - priority (required)
@@ -15118,6 +16039,9 @@ Optional:
                                     - uri_fragment (optional, block):
                                         - fallback_behavior (optional)
                                     - uri_path (optional, block):
+                                - pre_parse_text_transformation (optional, block):
+                                    - priority (required)
+                                    - type (required)
                                 - text_transformation (required, block):
                                     - priority (required)
                                     - type (required)
@@ -15162,6 +16086,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - regex_string (required)
                         - text_transformation (required, block):
                             - priority (required)
@@ -15208,6 +16135,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - text_transformation (required, block):
                             - priority (required)
                             - type (required)
@@ -15253,6 +16183,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - size (required)
                         - text_transformation (required, block):
                             - priority (required)
@@ -15298,6 +16231,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - sensitivity_level (optional)
                         - text_transformation (required, block):
                             - priority (required)
@@ -15343,6 +16279,9 @@ Optional:
                             - uri_fragment (optional, block):
                                 - fallback_behavior (optional)
                             - uri_path (optional, block):
+                        - pre_parse_text_transformation (optional, block):
+                            - priority (required)
+                            - type (required)
                         - text_transformation (required, block):
                             - priority (required)
                             - type (required)
@@ -15387,6 +16326,9 @@ Optional:
                     - uri_fragment (optional, block):
                         - fallback_behavior (optional)
                     - uri_path (optional, block):
+                - pre_parse_text_transformation (optional, block):
+                    - priority (required)
+                    - type (required)
                 - regex_string (required)
                 - text_transformation (required, block):
                     - priority (required)
@@ -15433,6 +16375,9 @@ Optional:
                     - uri_fragment (optional, block):
                         - fallback_behavior (optional)
                     - uri_path (optional, block):
+                - pre_parse_text_transformation (optional, block):
+                    - priority (required)
+                    - type (required)
                 - text_transformation (required, block):
                     - priority (required)
                     - type (required)
@@ -15478,6 +16423,9 @@ Optional:
                     - uri_fragment (optional, block):
                         - fallback_behavior (optional)
                     - uri_path (optional, block):
+                - pre_parse_text_transformation (optional, block):
+                    - priority (required)
+                    - type (required)
                 - size (required)
                 - text_transformation (required, block):
                     - priority (required)
@@ -15523,6 +16471,9 @@ Optional:
                     - uri_fragment (optional, block):
                         - fallback_behavior (optional)
                     - uri_path (optional, block):
+                - pre_parse_text_transformation (optional, block):
+                    - priority (required)
+                    - type (required)
                 - sensitivity_level (optional)
                 - text_transformation (required, block):
                     - priority (required)
@@ -15568,6 +16519,9 @@ Optional:
                     - uri_fragment (optional, block):
                         - fallback_behavior (optional)
                     - uri_path (optional, block):
+                - pre_parse_text_transformation (optional, block):
+                    - priority (required)
+                    - type (required)
                 - text_transformation (required, block):
                     - priority (required)
                     - type (required)
@@ -15729,7 +16683,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -15816,6 +16774,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -15885,6 +16847,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -15953,6 +16919,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -16021,6 +16991,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -16089,6 +17063,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -16166,7 +17144,11 @@ EOT
                     }))
                   }))
                   positional_constraint = string
-                  search_string         = string
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
+                  search_string = string
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -16263,7 +17245,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -16350,6 +17336,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -16419,6 +17409,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -16487,6 +17481,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -16555,6 +17553,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -16623,6 +17625,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -16702,7 +17708,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -16789,6 +17799,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -16858,6 +17872,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -16926,6 +17944,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -16994,6 +18016,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -17062,6 +18088,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -17131,6 +18161,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   regex_string = string
                   text_transformation = list(object({
                     priority = number
@@ -17200,6 +18234,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -17268,6 +18306,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   size = number
                   text_transformation = list(object({
                     priority = number
@@ -17336,6 +18378,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   sensitivity_level = optional(string)
                   text_transformation = list(object({
                     priority = number
@@ -17404,6 +18450,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -17481,7 +18531,11 @@ EOT
                 }))
               }))
               positional_constraint = string
-              search_string         = string
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
+              search_string = string
               text_transformation = list(object({
                 priority = number
                 type     = string
@@ -17580,7 +18634,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -17667,6 +18725,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -17736,6 +18798,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -17804,6 +18870,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -17872,6 +18942,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -17940,6 +19014,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -18017,7 +19095,11 @@ EOT
                     }))
                   }))
                   positional_constraint = string
-                  search_string         = string
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
+                  search_string = string
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -18114,7 +19196,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -18201,6 +19287,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -18270,6 +19360,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -18338,6 +19432,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -18406,6 +19504,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -18474,6 +19576,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -18553,7 +19659,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -18640,6 +19750,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -18709,6 +19823,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -18777,6 +19895,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -18845,6 +19967,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -18913,6 +20039,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -18982,6 +20112,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   regex_string = string
                   text_transformation = list(object({
                     priority = number
@@ -19051,6 +20185,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -19119,6 +20257,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   size = number
                   text_transformation = list(object({
                     priority = number
@@ -19187,6 +20329,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   sensitivity_level = optional(string)
                   text_transformation = list(object({
                     priority = number
@@ -19255,6 +20401,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -19336,7 +20486,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -19423,6 +20577,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -19492,6 +20650,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -19560,6 +20722,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -19628,6 +20794,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -19696,6 +20866,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -19773,7 +20947,11 @@ EOT
                     }))
                   }))
                   positional_constraint = string
-                  search_string         = string
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
+                  search_string = string
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -19870,7 +21048,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -19957,6 +21139,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -20026,6 +21212,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -20094,6 +21284,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -20162,6 +21356,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -20230,6 +21428,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -20309,7 +21511,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -20396,6 +21602,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -20465,6 +21675,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -20533,6 +21747,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -20601,6 +21819,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -20669,6 +21891,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -20738,6 +21964,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   regex_string = string
                   text_transformation = list(object({
                     priority = number
@@ -20807,6 +22037,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -20875,6 +22109,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   size = number
                   text_transformation = list(object({
                     priority = number
@@ -20943,6 +22181,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   sensitivity_level = optional(string)
                   text_transformation = list(object({
                     priority = number
@@ -21011,6 +22253,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -21080,6 +22326,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               regex_string = string
               text_transformation = list(object({
                 priority = number
@@ -21149,6 +22399,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               text_transformation = list(object({
                 priority = number
                 type     = string
@@ -21217,6 +22471,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               size = number
               text_transformation = list(object({
                 priority = number
@@ -21285,6 +22543,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               sensitivity_level = optional(string)
               text_transformation = list(object({
                 priority = number
@@ -21353,6 +22615,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               text_transformation = list(object({
                 priority = number
                 type     = string
@@ -21430,7 +22696,11 @@ EOT
             }))
           }))
           positional_constraint = string
-          search_string         = string
+          pre_parse_text_transformation = optional(list(object({
+            priority = number
+            type     = string
+          })))
+          search_string = string
           text_transformation = list(object({
             priority = number
             type     = string
@@ -21531,7 +22801,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -21618,6 +22892,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -21687,6 +22965,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -21755,6 +23037,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -21823,6 +23109,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -21891,6 +23181,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -21968,7 +23262,11 @@ EOT
                     }))
                   }))
                   positional_constraint = string
-                  search_string         = string
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
+                  search_string = string
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -22065,7 +23363,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -22152,6 +23454,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -22221,6 +23527,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -22289,6 +23599,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -22357,6 +23671,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -22425,6 +23743,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -22504,7 +23826,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -22591,6 +23917,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -22660,6 +23990,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -22728,6 +24062,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -22796,6 +24134,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -22864,6 +24206,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -22933,6 +24279,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   regex_string = string
                   text_transformation = list(object({
                     priority = number
@@ -23002,6 +24352,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -23070,6 +24424,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   size = number
                   text_transformation = list(object({
                     priority = number
@@ -23138,6 +24496,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   sensitivity_level = optional(string)
                   text_transformation = list(object({
                     priority = number
@@ -23206,6 +24568,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -23283,7 +24649,11 @@ EOT
                 }))
               }))
               positional_constraint = string
-              search_string         = string
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
+              search_string = string
               text_transformation = list(object({
                 priority = number
                 type     = string
@@ -23382,7 +24752,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -23469,6 +24843,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -23538,6 +24916,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -23606,6 +24988,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -23674,6 +25060,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -23742,6 +25132,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -23819,7 +25213,11 @@ EOT
                     }))
                   }))
                   positional_constraint = string
-                  search_string         = string
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
+                  search_string = string
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -23916,7 +25314,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -24003,6 +25405,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -24072,6 +25478,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -24140,6 +25550,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -24208,6 +25622,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -24276,6 +25694,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -24355,7 +25777,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -24442,6 +25868,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -24511,6 +25941,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -24579,6 +26013,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -24647,6 +26085,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -24715,6 +26157,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -24784,6 +26230,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   regex_string = string
                   text_transformation = list(object({
                     priority = number
@@ -24853,6 +26303,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -24921,6 +26375,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   size = number
                   text_transformation = list(object({
                     priority = number
@@ -24989,6 +26447,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   sensitivity_level = optional(string)
                   text_transformation = list(object({
                     priority = number
@@ -25057,6 +26519,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -25138,7 +26604,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -25225,6 +26695,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -25294,6 +26768,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -25362,6 +26840,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -25430,6 +26912,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -25498,6 +26984,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -25575,7 +27065,11 @@ EOT
                     }))
                   }))
                   positional_constraint = string
-                  search_string         = string
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
+                  search_string = string
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -25672,7 +27166,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -25759,6 +27257,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -25828,6 +27330,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -25896,6 +27402,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -25964,6 +27474,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -26032,6 +27546,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -26111,7 +27629,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -26198,6 +27720,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -26267,6 +27793,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -26335,6 +27865,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -26403,6 +27937,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -26471,6 +28009,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -26540,6 +28082,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   regex_string = string
                   text_transformation = list(object({
                     priority = number
@@ -26609,6 +28155,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -26677,6 +28227,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   size = number
                   text_transformation = list(object({
                     priority = number
@@ -26745,6 +28299,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   sensitivity_level = optional(string)
                   text_transformation = list(object({
                     priority = number
@@ -26813,6 +28371,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -26882,6 +28444,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               regex_string = string
               text_transformation = list(object({
                 priority = number
@@ -26951,6 +28517,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               text_transformation = list(object({
                 priority = number
                 type     = string
@@ -27019,6 +28589,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               size = number
               text_transformation = list(object({
                 priority = number
@@ -27087,6 +28661,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               sensitivity_level = optional(string)
               text_transformation = list(object({
                 priority = number
@@ -27155,6 +28733,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               text_transformation = list(object({
                 priority = number
                 type     = string
@@ -27238,7 +28820,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -27325,6 +28911,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -27394,6 +28984,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -27462,6 +29056,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -27530,6 +29128,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -27598,6 +29200,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -27675,7 +29281,11 @@ EOT
                     }))
                   }))
                   positional_constraint = string
-                  search_string         = string
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
+                  search_string = string
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -27772,7 +29382,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -27859,6 +29473,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -27928,6 +29546,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -27996,6 +29618,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -28064,6 +29690,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -28132,6 +29762,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -28211,7 +29845,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -28298,6 +29936,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -28367,6 +30009,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -28435,6 +30081,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -28503,6 +30153,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -28571,6 +30225,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -28640,6 +30298,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   regex_string = string
                   text_transformation = list(object({
                     priority = number
@@ -28709,6 +30371,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -28777,6 +30443,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   size = number
                   text_transformation = list(object({
                     priority = number
@@ -28845,6 +30515,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   sensitivity_level = optional(string)
                   text_transformation = list(object({
                     priority = number
@@ -28913,6 +30587,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -28990,7 +30668,11 @@ EOT
                 }))
               }))
               positional_constraint = string
-              search_string         = string
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
+              search_string = string
               text_transformation = list(object({
                 priority = number
                 type     = string
@@ -29089,7 +30771,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -29176,6 +30862,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -29245,6 +30935,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -29313,6 +31007,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -29381,6 +31079,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -29449,6 +31151,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -29526,7 +31232,11 @@ EOT
                     }))
                   }))
                   positional_constraint = string
-                  search_string         = string
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
+                  search_string = string
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -29623,7 +31333,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -29710,6 +31424,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -29779,6 +31497,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -29847,6 +31569,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -29915,6 +31641,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -29983,6 +31713,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -30062,7 +31796,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -30149,6 +31887,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -30218,6 +31960,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -30286,6 +32032,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -30354,6 +32104,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -30422,6 +32176,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -30491,6 +32249,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   regex_string = string
                   text_transformation = list(object({
                     priority = number
@@ -30560,6 +32322,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -30628,6 +32394,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   size = number
                   text_transformation = list(object({
                     priority = number
@@ -30696,6 +32466,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   sensitivity_level = optional(string)
                   text_transformation = list(object({
                     priority = number
@@ -30764,6 +32538,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -30845,7 +32623,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -30932,6 +32714,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -31001,6 +32787,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -31069,6 +32859,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -31137,6 +32931,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -31205,6 +33003,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -31282,7 +33084,11 @@ EOT
                     }))
                   }))
                   positional_constraint = string
-                  search_string         = string
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
+                  search_string = string
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -31379,7 +33185,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -31466,6 +33276,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -31535,6 +33349,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -31603,6 +33421,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -31671,6 +33493,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -31739,6 +33565,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -31818,7 +33648,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -31905,6 +33739,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -31974,6 +33812,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -32042,6 +33884,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -32110,6 +33956,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -32178,6 +34028,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -32247,6 +34101,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   regex_string = string
                   text_transformation = list(object({
                     priority = number
@@ -32316,6 +34174,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -32384,6 +34246,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   size = number
                   text_transformation = list(object({
                     priority = number
@@ -32452,6 +34318,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   sensitivity_level = optional(string)
                   text_transformation = list(object({
                     priority = number
@@ -32520,6 +34390,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -32589,6 +34463,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               regex_string = string
               text_transformation = list(object({
                 priority = number
@@ -32658,6 +34536,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               text_transformation = list(object({
                 priority = number
                 type     = string
@@ -32726,6 +34608,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               size = number
               text_transformation = list(object({
                 priority = number
@@ -32794,6 +34680,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               sensitivity_level = optional(string)
               text_transformation = list(object({
                 priority = number
@@ -32862,6 +34752,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               text_transformation = list(object({
                 priority = number
                 type     = string
@@ -33004,7 +34898,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -33091,6 +34989,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -33160,6 +35062,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -33228,6 +35134,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -33296,6 +35206,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -33364,6 +35278,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -33441,7 +35359,11 @@ EOT
                     }))
                   }))
                   positional_constraint = string
-                  search_string         = string
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
+                  search_string = string
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -33538,7 +35460,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -33625,6 +35551,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -33694,6 +35624,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -33762,6 +35696,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -33830,6 +35768,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -33898,6 +35840,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -33977,7 +35923,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -34064,6 +36014,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -34133,6 +36087,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -34201,6 +36159,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -34269,6 +36231,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -34337,6 +36303,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -34406,6 +36376,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   regex_string = string
                   text_transformation = list(object({
                     priority = number
@@ -34475,6 +36449,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -34543,6 +36521,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   size = number
                   text_transformation = list(object({
                     priority = number
@@ -34611,6 +36593,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   sensitivity_level = optional(string)
                   text_transformation = list(object({
                     priority = number
@@ -34679,6 +36665,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -34756,7 +36746,11 @@ EOT
                 }))
               }))
               positional_constraint = string
-              search_string         = string
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
+              search_string = string
               text_transformation = list(object({
                 priority = number
                 type     = string
@@ -34855,7 +36849,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -34942,6 +36940,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -35011,6 +37013,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -35079,6 +37085,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -35147,6 +37157,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -35215,6 +37229,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -35292,7 +37310,11 @@ EOT
                     }))
                   }))
                   positional_constraint = string
-                  search_string         = string
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
+                  search_string = string
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -35389,7 +37411,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -35476,6 +37502,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -35545,6 +37575,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -35613,6 +37647,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -35681,6 +37719,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -35749,6 +37791,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -35828,7 +37874,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -35915,6 +37965,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -35984,6 +38038,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -36052,6 +38110,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -36120,6 +38182,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -36188,6 +38254,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -36257,6 +38327,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   regex_string = string
                   text_transformation = list(object({
                     priority = number
@@ -36326,6 +38400,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -36394,6 +38472,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   size = number
                   text_transformation = list(object({
                     priority = number
@@ -36462,6 +38544,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   sensitivity_level = optional(string)
                   text_transformation = list(object({
                     priority = number
@@ -36530,6 +38616,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -36611,7 +38701,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -36698,6 +38792,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -36767,6 +38865,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -36835,6 +38937,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -36903,6 +39009,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -36971,6 +39081,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -37048,7 +39162,11 @@ EOT
                     }))
                   }))
                   positional_constraint = string
-                  search_string         = string
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
+                  search_string = string
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -37145,7 +39263,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -37232,6 +39354,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -37301,6 +39427,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -37369,6 +39499,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -37437,6 +39571,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -37505,6 +39643,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -37584,7 +39726,11 @@ EOT
                         }))
                       }))
                       positional_constraint = string
-                      search_string         = string
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
+                      search_string = string
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -37671,6 +39817,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       regex_string = string
                       text_transformation = list(object({
                         priority = number
@@ -37740,6 +39890,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -37808,6 +39962,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       size = number
                       text_transformation = list(object({
                         priority = number
@@ -37876,6 +40034,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       sensitivity_level = optional(string)
                       text_transformation = list(object({
                         priority = number
@@ -37944,6 +40106,10 @@ EOT
                         uri_path = optional(object({
                         }))
                       }))
+                      pre_parse_text_transformation = optional(list(object({
+                        priority = number
+                        type     = string
+                      })))
                       text_transformation = list(object({
                         priority = number
                         type     = string
@@ -38013,6 +40179,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   regex_string = string
                   text_transformation = list(object({
                     priority = number
@@ -38082,6 +40252,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -38150,6 +40324,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   size = number
                   text_transformation = list(object({
                     priority = number
@@ -38218,6 +40396,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   sensitivity_level = optional(string)
                   text_transformation = list(object({
                     priority = number
@@ -38286,6 +40468,10 @@ EOT
                     uri_path = optional(object({
                     }))
                   }))
+                  pre_parse_text_transformation = optional(list(object({
+                    priority = number
+                    type     = string
+                  })))
                   text_transformation = list(object({
                     priority = number
                     type     = string
@@ -38355,6 +40541,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               regex_string = string
               text_transformation = list(object({
                 priority = number
@@ -38424,6 +40614,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               text_transformation = list(object({
                 priority = number
                 type     = string
@@ -38492,6 +40686,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               size = number
               text_transformation = list(object({
                 priority = number
@@ -38560,6 +40758,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               sensitivity_level = optional(string)
               text_transformation = list(object({
                 priority = number
@@ -38628,6 +40830,10 @@ EOT
                 uri_path = optional(object({
                 }))
               }))
+              pre_parse_text_transformation = optional(list(object({
+                priority = number
+                type     = string
+              })))
               text_transformation = list(object({
                 priority = number
                 type     = string
@@ -38697,6 +40903,10 @@ EOT
             uri_path = optional(object({
             }))
           }))
+          pre_parse_text_transformation = optional(list(object({
+            priority = number
+            type     = string
+          })))
           regex_string = string
           text_transformation = list(object({
             priority = number
@@ -38766,6 +40976,10 @@ EOT
             uri_path = optional(object({
             }))
           }))
+          pre_parse_text_transformation = optional(list(object({
+            priority = number
+            type     = string
+          })))
           text_transformation = list(object({
             priority = number
             type     = string
@@ -38834,6 +41048,10 @@ EOT
             uri_path = optional(object({
             }))
           }))
+          pre_parse_text_transformation = optional(list(object({
+            priority = number
+            type     = string
+          })))
           size = number
           text_transformation = list(object({
             priority = number
@@ -38902,6 +41120,10 @@ EOT
             uri_path = optional(object({
             }))
           }))
+          pre_parse_text_transformation = optional(list(object({
+            priority = number
+            type     = string
+          })))
           sensitivity_level = optional(string)
           text_transformation = list(object({
             priority = number
@@ -38970,6 +41192,10 @@ EOT
             uri_path = optional(object({
             }))
           }))
+          pre_parse_text_transformation = optional(list(object({
+            priority = number
+            type     = string
+          })))
           text_transformation = list(object({
             priority = number
             type     = string
@@ -39050,6 +41276,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39062,6 +41296,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39082,6 +41324,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39094,6 +41344,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39114,6 +41372,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39130,6 +41396,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39142,6 +41416,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39170,6 +41452,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39182,6 +41472,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39202,6 +41500,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39214,6 +41520,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39234,6 +41548,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39246,6 +41568,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39274,6 +41604,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39286,6 +41624,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39306,6 +41652,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39318,6 +41672,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39338,6 +41700,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39350,6 +41720,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39370,6 +41748,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (length(item.regex_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -39382,6 +41768,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39402,6 +41796,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (length(item.size_constraint_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -39414,6 +41816,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39434,6 +41844,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -39446,6 +41864,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39482,6 +41908,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39494,6 +41928,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39514,6 +41956,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39526,6 +41976,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39546,6 +42004,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39562,6 +42028,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39574,6 +42048,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39602,6 +42084,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39614,6 +42104,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39634,6 +42132,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39646,6 +42152,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39666,6 +42180,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39678,6 +42200,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39706,6 +42236,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39718,6 +42256,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39738,6 +42284,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39750,6 +42304,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39770,6 +42332,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39782,6 +42352,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39802,6 +42380,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (length(item.regex_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -39814,6 +42400,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39834,6 +42428,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (length(item.size_constraint_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -39850,6 +42452,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -39862,6 +42472,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39898,6 +42516,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39910,6 +42536,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39930,6 +42564,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39942,6 +42584,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -39962,6 +42612,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39978,6 +42636,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -39990,6 +42656,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40018,6 +42692,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40030,6 +42712,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40050,6 +42740,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40062,6 +42760,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40082,6 +42788,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40094,6 +42808,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40122,6 +42844,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40134,6 +42864,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40154,6 +42892,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40166,6 +42912,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40186,6 +42940,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40198,6 +42960,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40218,6 +42988,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (length(item.regex_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -40230,6 +43008,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40250,6 +43036,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (length(item.size_constraint_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -40262,6 +43056,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40282,6 +43084,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -40294,6 +43104,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40314,6 +43132,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])
       )
     ])
@@ -40326,6 +43152,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40346,6 +43180,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])
       )
     ])
@@ -40362,6 +43204,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.and_statement == null || (alltrue([for item in item.statement.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])
       )
     ])
@@ -40374,6 +43224,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.byte_match_statement == null || (item.statement.byte_match_statement.pre_parse_text_transformation == null || (length(item.statement.byte_match_statement.pre_parse_text_transformation) <= 10)))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40418,6 +43276,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40430,6 +43296,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40450,6 +43324,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40462,6 +43344,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40482,6 +43372,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40498,6 +43396,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40510,6 +43416,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40538,6 +43452,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40550,6 +43472,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40570,6 +43500,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40582,6 +43520,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40602,6 +43548,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40614,6 +43568,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40642,6 +43604,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40654,6 +43624,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40674,6 +43652,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40686,6 +43672,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40706,6 +43700,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40718,6 +43720,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40738,6 +43748,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (length(item.regex_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -40750,6 +43768,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40770,6 +43796,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (length(item.size_constraint_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -40782,6 +43816,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40802,6 +43844,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -40814,6 +43864,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40850,6 +43908,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40862,6 +43928,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40882,6 +43956,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40894,6 +43976,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40914,6 +44004,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40930,6 +44028,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40942,6 +44048,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -40970,6 +44084,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -40982,6 +44104,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41002,6 +44132,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41014,6 +44152,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41034,6 +44180,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41046,6 +44200,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41074,6 +44236,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41086,6 +44256,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41106,6 +44284,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41118,6 +44304,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41138,6 +44332,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41150,6 +44352,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41170,6 +44380,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (length(item.regex_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -41182,6 +44400,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41202,6 +44428,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (length(item.size_constraint_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -41218,6 +44452,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -41230,6 +44472,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41266,6 +44516,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41278,6 +44536,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41298,6 +44564,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41310,6 +44584,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41330,6 +44612,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41346,6 +44636,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41358,6 +44656,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41386,6 +44692,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41398,6 +44712,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41418,6 +44740,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41430,6 +44760,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41450,6 +44788,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41462,6 +44808,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41490,6 +44844,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41502,6 +44864,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41522,6 +44892,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41534,6 +44912,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41554,6 +44940,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41566,6 +44960,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41586,6 +44988,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (length(item.regex_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -41598,6 +45008,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41618,6 +45036,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (length(item.size_constraint_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -41630,6 +45056,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41650,6 +45084,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -41662,6 +45104,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41682,6 +45132,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])
       )
     ])
@@ -41694,6 +45152,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41714,6 +45180,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])
       )
     ])
@@ -41726,6 +45200,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.not_statement == null || (alltrue([for item in item.statement.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41770,6 +45252,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41782,6 +45272,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41802,6 +45300,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41814,6 +45320,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41834,6 +45348,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41850,6 +45372,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41862,6 +45392,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41890,6 +45428,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41902,6 +45448,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41922,6 +45476,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41934,6 +45496,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41954,6 +45524,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -41966,6 +45544,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -41994,6 +45580,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42006,6 +45600,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42026,6 +45628,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42038,6 +45648,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42058,6 +45676,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42070,6 +45696,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42090,6 +45724,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (length(item.regex_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -42102,6 +45744,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42122,6 +45772,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (length(item.size_constraint_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -42134,6 +45792,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42154,6 +45820,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -42166,6 +45840,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42202,6 +45884,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42214,6 +45904,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42234,6 +45932,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42246,6 +45952,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42266,6 +45980,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42282,6 +46004,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42294,6 +46024,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42322,6 +46060,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42334,6 +46080,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42354,6 +46108,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42366,6 +46128,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42386,6 +46156,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42398,6 +46176,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42426,6 +46212,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42438,6 +46232,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42458,6 +46260,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42470,6 +46280,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42490,6 +46308,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42502,6 +46328,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42522,6 +46356,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (length(item.regex_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -42534,6 +46376,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42554,6 +46404,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (length(item.size_constraint_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -42570,6 +46428,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -42582,6 +46448,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42618,6 +46492,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42630,6 +46512,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42650,6 +46540,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42662,6 +46560,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42682,6 +46588,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42698,6 +46612,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42710,6 +46632,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42738,6 +46668,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42750,6 +46688,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42770,6 +46716,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42782,6 +46736,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42802,6 +46764,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42814,6 +46784,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42842,6 +46820,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42854,6 +46840,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42874,6 +46868,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42886,6 +46888,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42906,6 +46916,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))])))])
       )
     ])
@@ -42918,6 +46936,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42938,6 +46964,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (length(item.regex_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -42950,6 +46984,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -42970,6 +47012,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (length(item.size_constraint_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -42982,6 +47032,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43002,6 +47060,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))])
       )
     ])
@@ -43014,6 +47080,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43034,6 +47108,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])
       )
     ])
@@ -43046,6 +47128,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43066,6 +47156,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])
       )
     ])
@@ -43078,6 +47176,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.or_statement == null || (alltrue([for item in item.statement.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43162,6 +47268,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43174,6 +47288,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43194,6 +47316,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43206,6 +47336,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43226,6 +47364,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43242,6 +47388,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43254,6 +47408,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43282,6 +47444,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43294,6 +47464,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43314,6 +47492,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43326,6 +47512,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43346,6 +47540,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43358,6 +47560,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43386,6 +47596,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43398,6 +47616,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43418,6 +47644,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43430,6 +47664,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43450,6 +47692,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43462,6 +47712,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43482,6 +47740,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.regex_match_statement == null || (length(item.regex_match_statement.text_transformation) >= 1))])))))])
       )
     ])
@@ -43494,6 +47760,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43514,6 +47788,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.size_constraint_statement == null || (length(item.size_constraint_statement.text_transformation) >= 1))])))))])
       )
     ])
@@ -43526,6 +47808,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43546,6 +47836,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.and_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))))])
       )
     ])
@@ -43558,6 +47856,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.byte_match_statement == null || (item.statement.rate_based_statement.scope_down_statement.byte_match_statement.pre_parse_text_transformation == null || (length(item.statement.rate_based_statement.scope_down_statement.byte_match_statement.pre_parse_text_transformation) <= 10)))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43594,6 +47900,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43606,6 +47920,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43626,6 +47948,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43638,6 +47968,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43658,6 +47996,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43674,6 +48020,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43686,6 +48040,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43714,6 +48076,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43726,6 +48096,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43746,6 +48124,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43758,6 +48144,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43778,6 +48172,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43790,6 +48192,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43818,6 +48228,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43830,6 +48248,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43850,6 +48276,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43862,6 +48296,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43882,6 +48324,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -43894,6 +48344,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43914,6 +48372,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.regex_match_statement == null || (length(item.regex_match_statement.text_transformation) >= 1))])))))])
       )
     ])
@@ -43926,6 +48392,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -43946,6 +48420,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.size_constraint_statement == null || (length(item.size_constraint_statement.text_transformation) >= 1))])))))])
       )
     ])
@@ -43962,6 +48444,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))))])
       )
     ])
@@ -43974,6 +48464,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.not_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44010,6 +48508,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -44022,6 +48528,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44042,6 +48556,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -44054,6 +48576,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44074,6 +48604,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -44090,6 +48628,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.and_statement == null || (alltrue([for item in item.and_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -44102,6 +48648,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44130,6 +48684,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -44142,6 +48704,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44162,6 +48732,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -44174,6 +48752,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44194,6 +48780,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -44206,6 +48800,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.not_statement == null || (alltrue([for item in item.not_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44234,6 +48836,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (item.byte_match_statement.pre_parse_text_transformation == null || (length(item.byte_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.byte_match_statement == null || (length(item.byte_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -44246,6 +48856,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44266,6 +48884,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (length(item.regex_pattern_set_reference_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -44278,6 +48904,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44298,6 +48932,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.sqli_match_statement == null || (length(item.sqli_match_statement.text_transformation) >= 1))])))])))))])
       )
     ])
@@ -44310,6 +48952,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.or_statement == null || (alltrue([for item in item.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44330,6 +48980,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.regex_match_statement == null || (item.regex_match_statement.pre_parse_text_transformation == null || (length(item.regex_match_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.regex_match_statement == null || (length(item.regex_match_statement.text_transformation) >= 1))])))))])
       )
     ])
@@ -44342,6 +49000,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.regex_pattern_set_reference_statement == null || (item.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44362,6 +49028,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.size_constraint_statement == null || (item.size_constraint_statement.pre_parse_text_transformation == null || (length(item.size_constraint_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.size_constraint_statement == null || (length(item.size_constraint_statement.text_transformation) >= 1))])))))])
       )
     ])
@@ -44374,6 +49048,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.sqli_match_statement == null || (item.sqli_match_statement.pre_parse_text_transformation == null || (length(item.sqli_match_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44394,6 +49076,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.xss_match_statement == null || (item.xss_match_statement.pre_parse_text_transformation == null || (length(item.xss_match_statement.pre_parse_text_transformation) <= 10)))])))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.or_statement == null || (alltrue([for item in item.statement.rate_based_statement.scope_down_statement.or_statement.statement : (item.xss_match_statement == null || (length(item.xss_match_statement.text_transformation) >= 1))])))))])
       )
     ])
@@ -44406,6 +49096,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.regex_match_statement == null || (item.statement.rate_based_statement.scope_down_statement.regex_match_statement.pre_parse_text_transformation == null || (length(item.statement.rate_based_statement.scope_down_statement.regex_match_statement.pre_parse_text_transformation) <= 10)))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44426,6 +49124,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.regex_pattern_set_reference_statement == null || (item.statement.rate_based_statement.scope_down_statement.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.statement.rate_based_statement.scope_down_statement.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.regex_pattern_set_reference_statement == null || (length(item.statement.rate_based_statement.scope_down_statement.regex_pattern_set_reference_statement.text_transformation) >= 1))))])
       )
     ])
@@ -44438,6 +49144,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.size_constraint_statement == null || (item.statement.rate_based_statement.scope_down_statement.size_constraint_statement.pre_parse_text_transformation == null || (length(item.statement.rate_based_statement.scope_down_statement.size_constraint_statement.pre_parse_text_transformation) <= 10)))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44458,6 +49172,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.sqli_match_statement == null || (item.statement.rate_based_statement.scope_down_statement.sqli_match_statement.pre_parse_text_transformation == null || (length(item.statement.rate_based_statement.scope_down_statement.sqli_match_statement.pre_parse_text_transformation) <= 10)))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.sqli_match_statement == null || (length(item.statement.rate_based_statement.scope_down_statement.sqli_match_statement.text_transformation) >= 1))))])
       )
     ])
@@ -44470,6 +49192,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.rate_based_statement == null || (item.statement.rate_based_statement.scope_down_statement == null || (item.statement.rate_based_statement.scope_down_statement.xss_match_statement == null || (item.statement.rate_based_statement.scope_down_statement.xss_match_statement.pre_parse_text_transformation == null || (length(item.statement.rate_based_statement.scope_down_statement.xss_match_statement.pre_parse_text_transformation) <= 10)))))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44490,6 +49220,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.regex_match_statement == null || (item.statement.regex_match_statement.pre_parse_text_transformation == null || (length(item.statement.regex_match_statement.pre_parse_text_transformation) <= 10)))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.regex_match_statement == null || (length(item.statement.regex_match_statement.text_transformation) >= 1))])
       )
     ])
@@ -44502,6 +49240,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.regex_pattern_set_reference_statement == null || (item.statement.regex_pattern_set_reference_statement.pre_parse_text_transformation == null || (length(item.statement.regex_pattern_set_reference_statement.pre_parse_text_transformation) <= 10)))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([
@@ -44522,6 +49268,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.size_constraint_statement == null || (item.statement.size_constraint_statement.pre_parse_text_transformation == null || (length(item.statement.size_constraint_statement.pre_parse_text_transformation) <= 10)))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.size_constraint_statement == null || (length(item.statement.size_constraint_statement.text_transformation) >= 1))])
       )
     ])
@@ -44538,6 +49292,14 @@ EOT
   validation {
     condition = alltrue([
       for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.sqli_match_statement == null || (item.statement.sqli_match_statement.pre_parse_text_transformation == null || (length(item.statement.sqli_match_statement.pre_parse_text_transformation) <= 10)))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
         v.rule == null || alltrue([for item in v.rule : (item.statement.sqli_match_statement == null || (length(item.statement.sqli_match_statement.text_transformation) >= 1))])
       )
     ])
@@ -44550,6 +49312,14 @@ EOT
       )
     ])
     error_message = "Each match_pattern list must contain at least 1 items"
+  }
+  validation {
+    condition = alltrue([
+      for k, v in var.wafv2_rule_groups : (
+        v.rule == null || alltrue([for item in v.rule : (item.statement.xss_match_statement == null || (item.statement.xss_match_statement.pre_parse_text_transformation == null || (length(item.statement.xss_match_statement.pre_parse_text_transformation) <= 10)))])
+      )
+    ])
+    error_message = "Each pre_parse_text_transformation list must contain at most 10 items"
   }
   validation {
     condition = alltrue([

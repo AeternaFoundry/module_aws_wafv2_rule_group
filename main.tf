@@ -291,7 +291,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -456,6 +463,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -586,6 +600,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -719,6 +740,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -850,6 +878,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -979,6 +1014,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -1129,7 +1171,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                               }
                             }
                             positional_constraint = byte_match_statement.value.positional_constraint
-                            search_string         = byte_match_statement.value.search_string
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
+                            search_string = byte_match_statement.value.search_string
                             dynamic "text_transformation" {
                               for_each = byte_match_statement.value.text_transformation
                               content {
@@ -1314,7 +1363,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -1479,6 +1535,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -1609,6 +1672,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -1742,6 +1812,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -1873,6 +1950,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -2002,6 +2086,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -2158,7 +2249,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -2323,6 +2421,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -2453,6 +2558,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -2586,6 +2698,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -2717,6 +2836,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -2846,6 +2972,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -2982,6 +3115,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             regex_string = regex_match_statement.value.regex_string
                             dynamic "text_transformation" {
                               for_each = regex_match_statement.value.text_transformation
@@ -3112,6 +3252,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -3245,6 +3392,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             size = size_constraint_statement.value.size
                             dynamic "text_transformation" {
                               for_each = size_constraint_statement.value.text_transformation
@@ -3376,6 +3530,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             sensitivity_level = sqli_match_statement.value.sensitivity_level
                             dynamic "text_transformation" {
                               for_each = sqli_match_statement.value.text_transformation
@@ -3505,6 +3666,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -3655,7 +3823,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                       }
                     }
                     positional_constraint = byte_match_statement.value.positional_constraint
-                    search_string         = byte_match_statement.value.search_string
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
+                    search_string = byte_match_statement.value.search_string
                     dynamic "text_transformation" {
                       for_each = byte_match_statement.value.text_transformation
                       content {
@@ -3846,7 +4021,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -4011,6 +4193,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -4141,6 +4330,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -4274,6 +4470,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -4405,6 +4608,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -4534,6 +4744,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -4684,7 +4901,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                               }
                             }
                             positional_constraint = byte_match_statement.value.positional_constraint
-                            search_string         = byte_match_statement.value.search_string
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
+                            search_string = byte_match_statement.value.search_string
                             dynamic "text_transformation" {
                               for_each = byte_match_statement.value.text_transformation
                               content {
@@ -4869,7 +5093,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -5034,6 +5265,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -5164,6 +5402,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -5297,6 +5542,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -5428,6 +5680,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -5557,6 +5816,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -5713,7 +5979,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -5878,6 +6151,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -6008,6 +6288,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -6141,6 +6428,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -6272,6 +6566,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -6401,6 +6702,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -6537,6 +6845,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             regex_string = regex_match_statement.value.regex_string
                             dynamic "text_transformation" {
                               for_each = regex_match_statement.value.text_transformation
@@ -6667,6 +6982,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -6800,6 +7122,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             size = size_constraint_statement.value.size
                             dynamic "text_transformation" {
                               for_each = size_constraint_statement.value.text_transformation
@@ -6931,6 +7260,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             sensitivity_level = sqli_match_statement.value.sensitivity_level
                             dynamic "text_transformation" {
                               for_each = sqli_match_statement.value.text_transformation
@@ -7060,6 +7396,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -7222,7 +7565,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -7387,6 +7737,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -7517,6 +7874,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -7650,6 +8014,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -7781,6 +8152,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -7910,6 +8288,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -8060,7 +8445,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                               }
                             }
                             positional_constraint = byte_match_statement.value.positional_constraint
-                            search_string         = byte_match_statement.value.search_string
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
+                            search_string = byte_match_statement.value.search_string
                             dynamic "text_transformation" {
                               for_each = byte_match_statement.value.text_transformation
                               content {
@@ -8245,7 +8637,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -8410,6 +8809,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -8540,6 +8946,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -8673,6 +9086,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -8804,6 +9224,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -8933,6 +9360,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -9089,7 +9523,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -9254,6 +9695,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -9384,6 +9832,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -9517,6 +9972,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -9648,6 +10110,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -9777,6 +10246,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -9913,6 +10389,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             regex_string = regex_match_statement.value.regex_string
                             dynamic "text_transformation" {
                               for_each = regex_match_statement.value.text_transformation
@@ -10043,6 +10526,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -10176,6 +10666,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             size = size_constraint_statement.value.size
                             dynamic "text_transformation" {
                               for_each = size_constraint_statement.value.text_transformation
@@ -10307,6 +10804,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             sensitivity_level = sqli_match_statement.value.sensitivity_level
                             dynamic "text_transformation" {
                               for_each = sqli_match_statement.value.text_transformation
@@ -10436,6 +10940,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -10572,6 +11083,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                         }
                       }
                     }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
                     regex_string = regex_match_statement.value.regex_string
                     dynamic "text_transformation" {
                       for_each = regex_match_statement.value.text_transformation
@@ -10702,6 +11220,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                           content {
                           }
                         }
+                      }
+                    }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
                       }
                     }
                     dynamic "text_transformation" {
@@ -10835,6 +11360,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                         }
                       }
                     }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
                     size = size_constraint_statement.value.size
                     dynamic "text_transformation" {
                       for_each = size_constraint_statement.value.text_transformation
@@ -10966,6 +11498,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                         }
                       }
                     }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                     dynamic "text_transformation" {
                       for_each = sqli_match_statement.value.text_transformation
@@ -11095,6 +11634,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                           content {
                           }
                         }
+                      }
+                    }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
                       }
                     }
                     dynamic "text_transformation" {
@@ -11245,7 +11791,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
               }
             }
             positional_constraint = byte_match_statement.value.positional_constraint
-            search_string         = byte_match_statement.value.search_string
+            dynamic "pre_parse_text_transformation" {
+              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+              content {
+                priority = pre_parse_text_transformation.value.priority
+                type     = pre_parse_text_transformation.value.type
+              }
+            }
+            search_string = byte_match_statement.value.search_string
             dynamic "text_transformation" {
               for_each = byte_match_statement.value.text_transformation
               content {
@@ -11442,7 +11995,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -11607,6 +12167,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -11737,6 +12304,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -11870,6 +12444,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -12001,6 +12582,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -12130,6 +12718,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -12280,7 +12875,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                               }
                             }
                             positional_constraint = byte_match_statement.value.positional_constraint
-                            search_string         = byte_match_statement.value.search_string
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
+                            search_string = byte_match_statement.value.search_string
                             dynamic "text_transformation" {
                               for_each = byte_match_statement.value.text_transformation
                               content {
@@ -12465,7 +13067,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -12630,6 +13239,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -12760,6 +13376,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -12893,6 +13516,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -13024,6 +13654,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -13153,6 +13790,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -13309,7 +13953,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -13474,6 +14125,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -13604,6 +14262,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -13737,6 +14402,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -13868,6 +14540,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -13997,6 +14676,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -14133,6 +14819,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             regex_string = regex_match_statement.value.regex_string
                             dynamic "text_transformation" {
                               for_each = regex_match_statement.value.text_transformation
@@ -14263,6 +14956,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -14396,6 +15096,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             size = size_constraint_statement.value.size
                             dynamic "text_transformation" {
                               for_each = size_constraint_statement.value.text_transformation
@@ -14527,6 +15234,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             sensitivity_level = sqli_match_statement.value.sensitivity_level
                             dynamic "text_transformation" {
                               for_each = sqli_match_statement.value.text_transformation
@@ -14656,6 +15370,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -14806,7 +15527,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                       }
                     }
                     positional_constraint = byte_match_statement.value.positional_constraint
-                    search_string         = byte_match_statement.value.search_string
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
+                    search_string = byte_match_statement.value.search_string
                     dynamic "text_transformation" {
                       for_each = byte_match_statement.value.text_transformation
                       content {
@@ -14997,7 +15725,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -15162,6 +15897,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -15292,6 +16034,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -15425,6 +16174,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -15556,6 +16312,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -15685,6 +16448,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -15835,7 +16605,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                               }
                             }
                             positional_constraint = byte_match_statement.value.positional_constraint
-                            search_string         = byte_match_statement.value.search_string
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
+                            search_string = byte_match_statement.value.search_string
                             dynamic "text_transformation" {
                               for_each = byte_match_statement.value.text_transformation
                               content {
@@ -16020,7 +16797,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -16185,6 +16969,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -16315,6 +17106,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -16448,6 +17246,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -16579,6 +17384,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -16708,6 +17520,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -16864,7 +17683,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -17029,6 +17855,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -17159,6 +17992,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -17292,6 +18132,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -17423,6 +18270,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -17552,6 +18406,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -17688,6 +18549,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             regex_string = regex_match_statement.value.regex_string
                             dynamic "text_transformation" {
                               for_each = regex_match_statement.value.text_transformation
@@ -17818,6 +18686,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -17951,6 +18826,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             size = size_constraint_statement.value.size
                             dynamic "text_transformation" {
                               for_each = size_constraint_statement.value.text_transformation
@@ -18082,6 +18964,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             sensitivity_level = sqli_match_statement.value.sensitivity_level
                             dynamic "text_transformation" {
                               for_each = sqli_match_statement.value.text_transformation
@@ -18211,6 +19100,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -18373,7 +19269,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -18538,6 +19441,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -18668,6 +19578,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -18801,6 +19718,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -18932,6 +19856,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -19061,6 +19992,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -19211,7 +20149,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                               }
                             }
                             positional_constraint = byte_match_statement.value.positional_constraint
-                            search_string         = byte_match_statement.value.search_string
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
+                            search_string = byte_match_statement.value.search_string
                             dynamic "text_transformation" {
                               for_each = byte_match_statement.value.text_transformation
                               content {
@@ -19396,7 +20341,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -19561,6 +20513,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -19691,6 +20650,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -19824,6 +20790,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -19955,6 +20928,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -20084,6 +21064,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -20240,7 +21227,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -20405,6 +21399,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -20535,6 +21536,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -20668,6 +21676,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -20799,6 +21814,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -20928,6 +21950,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -21064,6 +22093,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             regex_string = regex_match_statement.value.regex_string
                             dynamic "text_transformation" {
                               for_each = regex_match_statement.value.text_transformation
@@ -21194,6 +22230,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -21327,6 +22370,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             size = size_constraint_statement.value.size
                             dynamic "text_transformation" {
                               for_each = size_constraint_statement.value.text_transformation
@@ -21458,6 +22508,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             sensitivity_level = sqli_match_statement.value.sensitivity_level
                             dynamic "text_transformation" {
                               for_each = sqli_match_statement.value.text_transformation
@@ -21587,6 +22644,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -21723,6 +22787,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                         }
                       }
                     }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
                     regex_string = regex_match_statement.value.regex_string
                     dynamic "text_transformation" {
                       for_each = regex_match_statement.value.text_transformation
@@ -21853,6 +22924,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                           content {
                           }
                         }
+                      }
+                    }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
                       }
                     }
                     dynamic "text_transformation" {
@@ -21986,6 +23064,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                         }
                       }
                     }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
                     size = size_constraint_statement.value.size
                     dynamic "text_transformation" {
                       for_each = size_constraint_statement.value.text_transformation
@@ -22117,6 +23202,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                         }
                       }
                     }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                     dynamic "text_transformation" {
                       for_each = sqli_match_statement.value.text_transformation
@@ -22246,6 +23338,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                           content {
                           }
                         }
+                      }
+                    }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
                       }
                     }
                     dynamic "text_transformation" {
@@ -22414,7 +23513,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -22579,6 +23685,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -22709,6 +23822,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -22842,6 +23962,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -22973,6 +24100,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -23102,6 +24236,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -23252,7 +24393,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                               }
                             }
                             positional_constraint = byte_match_statement.value.positional_constraint
-                            search_string         = byte_match_statement.value.search_string
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
+                            search_string = byte_match_statement.value.search_string
                             dynamic "text_transformation" {
                               for_each = byte_match_statement.value.text_transformation
                               content {
@@ -23437,7 +24585,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -23602,6 +24757,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -23732,6 +24894,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -23865,6 +25034,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -23996,6 +25172,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -24125,6 +25308,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -24281,7 +25471,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -24446,6 +25643,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -24576,6 +25780,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -24709,6 +25920,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -24840,6 +26058,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -24969,6 +26194,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -25105,6 +26337,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             regex_string = regex_match_statement.value.regex_string
                             dynamic "text_transformation" {
                               for_each = regex_match_statement.value.text_transformation
@@ -25235,6 +26474,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -25368,6 +26614,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             size = size_constraint_statement.value.size
                             dynamic "text_transformation" {
                               for_each = size_constraint_statement.value.text_transformation
@@ -25499,6 +26752,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             sensitivity_level = sqli_match_statement.value.sensitivity_level
                             dynamic "text_transformation" {
                               for_each = sqli_match_statement.value.text_transformation
@@ -25628,6 +26888,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -25778,7 +27045,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                       }
                     }
                     positional_constraint = byte_match_statement.value.positional_constraint
-                    search_string         = byte_match_statement.value.search_string
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
+                    search_string = byte_match_statement.value.search_string
                     dynamic "text_transformation" {
                       for_each = byte_match_statement.value.text_transformation
                       content {
@@ -25969,7 +27243,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -26134,6 +27415,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -26264,6 +27552,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -26397,6 +27692,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -26528,6 +27830,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -26657,6 +27966,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -26807,7 +28123,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                               }
                             }
                             positional_constraint = byte_match_statement.value.positional_constraint
-                            search_string         = byte_match_statement.value.search_string
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
+                            search_string = byte_match_statement.value.search_string
                             dynamic "text_transformation" {
                               for_each = byte_match_statement.value.text_transformation
                               content {
@@ -26992,7 +28315,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -27157,6 +28487,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -27287,6 +28624,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -27420,6 +28764,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -27551,6 +28902,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -27680,6 +29038,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -27836,7 +29201,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -28001,6 +29373,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -28131,6 +29510,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -28264,6 +29650,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -28395,6 +29788,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -28524,6 +29924,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -28660,6 +30067,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             regex_string = regex_match_statement.value.regex_string
                             dynamic "text_transformation" {
                               for_each = regex_match_statement.value.text_transformation
@@ -28790,6 +30204,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -28923,6 +30344,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             size = size_constraint_statement.value.size
                             dynamic "text_transformation" {
                               for_each = size_constraint_statement.value.text_transformation
@@ -29054,6 +30482,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             sensitivity_level = sqli_match_statement.value.sensitivity_level
                             dynamic "text_transformation" {
                               for_each = sqli_match_statement.value.text_transformation
@@ -29183,6 +30618,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -29345,7 +30787,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -29510,6 +30959,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -29640,6 +31096,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -29773,6 +31236,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -29904,6 +31374,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -30033,6 +31510,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -30183,7 +31667,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                               }
                             }
                             positional_constraint = byte_match_statement.value.positional_constraint
-                            search_string         = byte_match_statement.value.search_string
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
+                            search_string = byte_match_statement.value.search_string
                             dynamic "text_transformation" {
                               for_each = byte_match_statement.value.text_transformation
                               content {
@@ -30368,7 +31859,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -30533,6 +32031,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -30663,6 +32168,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -30796,6 +32308,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -30927,6 +32446,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -31056,6 +32582,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -31212,7 +32745,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -31377,6 +32917,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -31507,6 +33054,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -31640,6 +33194,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -31771,6 +33332,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -31900,6 +33468,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -32036,6 +33611,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             regex_string = regex_match_statement.value.regex_string
                             dynamic "text_transformation" {
                               for_each = regex_match_statement.value.text_transformation
@@ -32166,6 +33748,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -32299,6 +33888,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             size = size_constraint_statement.value.size
                             dynamic "text_transformation" {
                               for_each = size_constraint_statement.value.text_transformation
@@ -32430,6 +34026,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             sensitivity_level = sqli_match_statement.value.sensitivity_level
                             dynamic "text_transformation" {
                               for_each = sqli_match_statement.value.text_transformation
@@ -32559,6 +34162,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -32695,6 +34305,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                         }
                       }
                     }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
                     regex_string = regex_match_statement.value.regex_string
                     dynamic "text_transformation" {
                       for_each = regex_match_statement.value.text_transformation
@@ -32825,6 +34442,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                           content {
                           }
                         }
+                      }
+                    }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
                       }
                     }
                     dynamic "text_transformation" {
@@ -32958,6 +34582,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                         }
                       }
                     }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
                     size = size_constraint_statement.value.size
                     dynamic "text_transformation" {
                       for_each = size_constraint_statement.value.text_transformation
@@ -33089,6 +34720,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                         }
                       }
                     }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                     dynamic "text_transformation" {
                       for_each = sqli_match_statement.value.text_transformation
@@ -33218,6 +34856,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                           content {
                           }
                         }
+                      }
+                    }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
                       }
                     }
                     dynamic "text_transformation" {
@@ -33502,7 +35147,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -33667,6 +35319,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -33797,6 +35456,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -33930,6 +35596,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -34061,6 +35734,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -34190,6 +35870,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -34340,7 +36027,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                               }
                             }
                             positional_constraint = byte_match_statement.value.positional_constraint
-                            search_string         = byte_match_statement.value.search_string
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
+                            search_string = byte_match_statement.value.search_string
                             dynamic "text_transformation" {
                               for_each = byte_match_statement.value.text_transformation
                               content {
@@ -34525,7 +36219,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -34690,6 +36391,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -34820,6 +36528,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -34953,6 +36668,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -35084,6 +36806,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -35213,6 +36942,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -35369,7 +37105,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -35534,6 +37277,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -35664,6 +37414,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -35797,6 +37554,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -35928,6 +37692,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -36057,6 +37828,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -36193,6 +37971,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             regex_string = regex_match_statement.value.regex_string
                             dynamic "text_transformation" {
                               for_each = regex_match_statement.value.text_transformation
@@ -36323,6 +38108,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -36456,6 +38248,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             size = size_constraint_statement.value.size
                             dynamic "text_transformation" {
                               for_each = size_constraint_statement.value.text_transformation
@@ -36587,6 +38386,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             sensitivity_level = sqli_match_statement.value.sensitivity_level
                             dynamic "text_transformation" {
                               for_each = sqli_match_statement.value.text_transformation
@@ -36716,6 +38522,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -36866,7 +38679,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                       }
                     }
                     positional_constraint = byte_match_statement.value.positional_constraint
-                    search_string         = byte_match_statement.value.search_string
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
+                    search_string = byte_match_statement.value.search_string
                     dynamic "text_transformation" {
                       for_each = byte_match_statement.value.text_transformation
                       content {
@@ -37057,7 +38877,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -37222,6 +39049,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -37352,6 +39186,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -37485,6 +39326,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -37616,6 +39464,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -37745,6 +39600,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -37895,7 +39757,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                               }
                             }
                             positional_constraint = byte_match_statement.value.positional_constraint
-                            search_string         = byte_match_statement.value.search_string
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
+                            search_string = byte_match_statement.value.search_string
                             dynamic "text_transformation" {
                               for_each = byte_match_statement.value.text_transformation
                               content {
@@ -38080,7 +39949,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -38245,6 +40121,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -38375,6 +40258,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -38508,6 +40398,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -38639,6 +40536,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -38768,6 +40672,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -38924,7 +40835,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -39089,6 +41007,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -39219,6 +41144,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -39352,6 +41284,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -39483,6 +41422,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -39612,6 +41558,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -39748,6 +41701,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             regex_string = regex_match_statement.value.regex_string
                             dynamic "text_transformation" {
                               for_each = regex_match_statement.value.text_transformation
@@ -39878,6 +41838,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -40011,6 +41978,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             size = size_constraint_statement.value.size
                             dynamic "text_transformation" {
                               for_each = size_constraint_statement.value.text_transformation
@@ -40142,6 +42116,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             sensitivity_level = sqli_match_statement.value.sensitivity_level
                             dynamic "text_transformation" {
                               for_each = sqli_match_statement.value.text_transformation
@@ -40271,6 +42252,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -40433,7 +42421,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -40598,6 +42593,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -40728,6 +42730,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -40861,6 +42870,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -40992,6 +43008,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -41121,6 +43144,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -41271,7 +43301,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                               }
                             }
                             positional_constraint = byte_match_statement.value.positional_constraint
-                            search_string         = byte_match_statement.value.search_string
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
+                            search_string = byte_match_statement.value.search_string
                             dynamic "text_transformation" {
                               for_each = byte_match_statement.value.text_transformation
                               content {
@@ -41456,7 +43493,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -41621,6 +43665,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -41751,6 +43802,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -41884,6 +43942,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -42015,6 +44080,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -42144,6 +44216,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -42300,7 +44379,14 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                       }
                                     }
                                     positional_constraint = byte_match_statement.value.positional_constraint
-                                    search_string         = byte_match_statement.value.search_string
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = byte_match_statement.value.pre_parse_text_transformation != null ? byte_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
+                                    search_string = byte_match_statement.value.search_string
                                     dynamic "text_transformation" {
                                       for_each = byte_match_statement.value.text_transformation
                                       content {
@@ -42465,6 +44551,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     regex_string = regex_match_statement.value.regex_string
                                     dynamic "text_transformation" {
                                       for_each = regex_match_statement.value.text_transformation
@@ -42595,6 +44688,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -42728,6 +44828,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     size = size_constraint_statement.value.size
                                     dynamic "text_transformation" {
                                       for_each = size_constraint_statement.value.text_transformation
@@ -42859,6 +44966,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                         }
                                       }
                                     }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
+                                      }
+                                    }
                                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                                     dynamic "text_transformation" {
                                       for_each = sqli_match_statement.value.text_transformation
@@ -42988,6 +45102,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                           content {
                                           }
                                         }
+                                      }
+                                    }
+                                    dynamic "pre_parse_text_transformation" {
+                                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                                      content {
+                                        priority = pre_parse_text_transformation.value.priority
+                                        type     = pre_parse_text_transformation.value.type
                                       }
                                     }
                                     dynamic "text_transformation" {
@@ -43124,6 +45245,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             regex_string = regex_match_statement.value.regex_string
                             dynamic "text_transformation" {
                               for_each = regex_match_statement.value.text_transformation
@@ -43254,6 +45382,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -43387,6 +45522,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             size = size_constraint_statement.value.size
                             dynamic "text_transformation" {
                               for_each = size_constraint_statement.value.text_transformation
@@ -43518,6 +45660,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                 }
                               }
                             }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
+                              }
+                            }
                             sensitivity_level = sqli_match_statement.value.sensitivity_level
                             dynamic "text_transformation" {
                               for_each = sqli_match_statement.value.text_transformation
@@ -43647,6 +45796,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                                   content {
                                   }
                                 }
+                              }
+                            }
+                            dynamic "pre_parse_text_transformation" {
+                              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                              content {
+                                priority = pre_parse_text_transformation.value.priority
+                                type     = pre_parse_text_transformation.value.type
                               }
                             }
                             dynamic "text_transformation" {
@@ -43783,6 +45939,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                         }
                       }
                     }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
                     regex_string = regex_match_statement.value.regex_string
                     dynamic "text_transformation" {
                       for_each = regex_match_statement.value.text_transformation
@@ -43913,6 +46076,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                           content {
                           }
                         }
+                      }
+                    }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
                       }
                     }
                     dynamic "text_transformation" {
@@ -44046,6 +46216,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                         }
                       }
                     }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
                     size = size_constraint_statement.value.size
                     dynamic "text_transformation" {
                       for_each = size_constraint_statement.value.text_transformation
@@ -44177,6 +46354,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                         }
                       }
                     }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
+                      }
+                    }
                     sensitivity_level = sqli_match_statement.value.sensitivity_level
                     dynamic "text_transformation" {
                       for_each = sqli_match_statement.value.text_transformation
@@ -44306,6 +46490,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                           content {
                           }
                         }
+                      }
+                    }
+                    dynamic "pre_parse_text_transformation" {
+                      for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+                      content {
+                        priority = pre_parse_text_transformation.value.priority
+                        type     = pre_parse_text_transformation.value.type
                       }
                     }
                     dynamic "text_transformation" {
@@ -44442,6 +46633,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                 }
               }
             }
+            dynamic "pre_parse_text_transformation" {
+              for_each = regex_match_statement.value.pre_parse_text_transformation != null ? regex_match_statement.value.pre_parse_text_transformation : []
+              content {
+                priority = pre_parse_text_transformation.value.priority
+                type     = pre_parse_text_transformation.value.type
+              }
+            }
             regex_string = regex_match_statement.value.regex_string
             dynamic "text_transformation" {
               for_each = regex_match_statement.value.text_transformation
@@ -44572,6 +46770,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                   content {
                   }
                 }
+              }
+            }
+            dynamic "pre_parse_text_transformation" {
+              for_each = regex_pattern_set_reference_statement.value.pre_parse_text_transformation != null ? regex_pattern_set_reference_statement.value.pre_parse_text_transformation : []
+              content {
+                priority = pre_parse_text_transformation.value.priority
+                type     = pre_parse_text_transformation.value.type
               }
             }
             dynamic "text_transformation" {
@@ -44705,6 +46910,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                 }
               }
             }
+            dynamic "pre_parse_text_transformation" {
+              for_each = size_constraint_statement.value.pre_parse_text_transformation != null ? size_constraint_statement.value.pre_parse_text_transformation : []
+              content {
+                priority = pre_parse_text_transformation.value.priority
+                type     = pre_parse_text_transformation.value.type
+              }
+            }
             size = size_constraint_statement.value.size
             dynamic "text_transformation" {
               for_each = size_constraint_statement.value.text_transformation
@@ -44836,6 +47048,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                 }
               }
             }
+            dynamic "pre_parse_text_transformation" {
+              for_each = sqli_match_statement.value.pre_parse_text_transformation != null ? sqli_match_statement.value.pre_parse_text_transformation : []
+              content {
+                priority = pre_parse_text_transformation.value.priority
+                type     = pre_parse_text_transformation.value.type
+              }
+            }
             sensitivity_level = sqli_match_statement.value.sensitivity_level
             dynamic "text_transformation" {
               for_each = sqli_match_statement.value.text_transformation
@@ -44965,6 +47184,13 @@ resource "aws_wafv2_rule_group" "wafv2_rule_groups" {
                   content {
                   }
                 }
+              }
+            }
+            dynamic "pre_parse_text_transformation" {
+              for_each = xss_match_statement.value.pre_parse_text_transformation != null ? xss_match_statement.value.pre_parse_text_transformation : []
+              content {
+                priority = pre_parse_text_transformation.value.priority
+                type     = pre_parse_text_transformation.value.type
               }
             }
             dynamic "text_transformation" {
